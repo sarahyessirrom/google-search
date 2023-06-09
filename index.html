@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<div class="container">
-<div class"logo">
-  <img class="google-logo"src="http://i.kinja-img.com/gawker-media/image/upload/s--pEKSmwzm--/c_scale,fl_progressive,q_80,w_800/1414228815325188681.jpg"</div>
-
-<div class="searchform"><input style="search"></input><div>
-
-<div class="buttons"><button>Google Search</button><button>I'm Feeling Lucky</button>
-  <p>Google.ca offered in: <a href="#">Francais</a></p>
-  </div>
-  
- <div class="footer">
-  
-  <span class="footer-left">
-    <a href="#">Advertising</a>
-    <a href="#">Business</a>
-    <a href="#">About</a>
-  </span>
-  
-  <span class="footer-right">
-  <a href="#">Privacy</a>
-    <a href="#">Terms</a>
-    <a href="#">Settings</a>
-    <a href="#">Use Google.com</a>
-  </span>
-  </div>
-  
-</div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erik's Google Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="#">About</a>
+        <a href="#">Store</a>
+      </div>
+      <div class="right-header">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img src="dots.svg" alt="" srcset="" />
+      </div>
+    </header>
+    <section class="main">
+      <img src="google.png" alt="" />
+      <form onsubmit="onSubmit(event)">
+        <label for="textSearch">
+          <input
+            aria-label="Input Search"
+            type="text"
+            id="textSearch"
+            name="textSearch"
+          />
+        </label>
+        <div class="buttons">
+          <button aria-label="Google Search">Google Search</button>
+          <button aria-label="I'm Feeling Lucky" type="button" data-lucky>
+            I'm Feeling Lucky
+          </button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
