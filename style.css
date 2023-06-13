@@ -2,18 +2,14 @@
   text-align:center;
   width:100%;
   height:auto;
-  padding-top:130px;
+  padding-top:200px;
   margin:0 auto;
 }
 
-.logo {
-margin-top:196px;
-border:1px solid red; background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Google_2011_logo.png/640px-Google_2011_logo.png);
-}
 input {
 width:400px;
   height:30px;
-  margin-bottom:50px;
+  margin-bottom:15px;
 }
 
 a{
@@ -33,7 +29,7 @@ p{
 .footer {
   background:#f2f2f2;
   font-family:arial;
-  font-color:#757575;
+  color:#757575;
   padding:5px;
   bottom:0;
   position:fixed;
@@ -55,17 +51,17 @@ p{
   float:right;
 }
 .header a{
-  color:#757575;
+  color:#ffffff;
   padding:5px;
   font-size:10pt;
 }
 
 .header {
-  background:#f2f2f2;
+  background:#2d2d2d;
   font-family:arial;
-  font-color:#757575;
+  color:#ffffff;
   padding:5px;
-  bottom:0;
+  top:0;
   position:fixed;
   width:100%;
   left:-5px;
@@ -87,6 +83,7 @@ p{
 
 .google-logo {
   width:300px;
+  margin-bottom: 20px;
 }
 
 .buttons {
