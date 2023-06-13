@@ -54,6 +54,36 @@ p{
 .footer-right{
   float:right;
 }
+.header a{
+  color:#757575;
+  padding:5px;
+  font-size:10pt;
+}
+
+.header {
+  background:#f2f2f2;
+  font-family:arial;
+  font-color:#757575;
+  padding:5px;
+  bottom:0;
+  position:fixed;
+  width:100%;
+  left:-5px;
+}
+.header:after {
+  display:block;
+  clear:both;
+  content: "";
+  height:0;
+  overflow:hidden;
+}
+
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+}
 
 .google-logo {
   width:300px;
